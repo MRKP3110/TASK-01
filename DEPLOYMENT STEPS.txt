@@ -1,0 +1,35 @@
+1. Set Up Remix IDE
+        Open your browser and go to Remix IDE.
+
+2. Create a New Solidity File
+                              Once you are in Remix IDE:
+                                                        In the left sidebar, go to the File Explorer.
+                                                        Click on the + New File button.
+                                                        Name your file
+                                                        Write the Solidity code for SimpleToken into this file.
+
+3. Compile the Contract
+                        In the left sidebar, click on the Solidity Compiler.
+                        Make sure the Compiler version matches the version used in the contract.
+                        Click on the Compile SimpleToken.sol button. If everything is correct, the contract will compile successfully, and you should see a green checkmark next to the compiler version.
+
+4. Set Up MetaMask
+                  Install the MetaMask extension for Chrome or Firefox from MetaMask.
+                  Once installed, open MetaMask and set up a wallet (if you don't have one already).
+                  Ensure your MetaMask is connected to the Ethereum network.
+
+5. Connect Remix to MetaMask
+                            In the Remix IDE:
+                                             On the left sidebar, click on the Deploy & Run Transactions.
+                                             In the Environment dropdown, select Injected Web3. This will connect Remix to your MetaMask wallet.
+                                             Ensure that MetaMask is connected to the correct Ethereum network. 
+                                             Once connected, you should see your MetaMask account address in the Account dropdown.
+
+6. Deploy the Contract
+                      In Remix:
+                               Under Deploy & Run Transactions, ensure that your contract (SimpleToken) is selected in the Contract dropdown.
+                               You'll see a constructor input box asking for the initialSupply argument (this is the number of tokens you want to create).
+                               For example, enter 1000 for 1000 STK tokens.
+                               Click the Deploy button.
+                               MetaMask will pop up asking you to confirm the transaction. Make sure the gas fee is acceptable to you and click Confirm.
+                               Wait for the transaction to be mined. Once it's confirmed, your contract will be deployed.
